@@ -81,11 +81,41 @@ const certs = [
   { name: "Models and Platforms for Generative AI", issuer: "IBM", logo: "GEN-AI", pdf: "certs/generative-ai-platforms.pdf" },
 
   // NYIF (1)
-  { name: "Stock Trading Professional Certification", issuer: "NYIF (edX)", logo: "TRADE", pdf: "certs/trading-professional.pdf" }
+  { name: "Stock Trading Professional Certification", issuer: "NYIF (edX)", logo: "TRADE", pdf: "certs/trading-professional.pdf" },
+
+  // Google Data Analytics Professional Certificate (in progress)
+{ 
+  name: "Google Data Analytics Professional Certificate", 
+  issuer: "Google (Coursera)", 
+  logo: "GDA", 
+  pdf: "" 
+},
+
+// Completed Google Data Analytics Courses (3/8)
+{ 
+  name: "Foundations: Data, Data, Everywhere", 
+  issuer: "Google (Coursera)", 
+  logo: "GDA", 
+  pdf: "certs/google data analysis foundation.pdf" 
+},
+{ 
+  name: "Ask Questions to Make Data-Driven Decisions", 
+  issuer: "Google (Coursera)", 
+  logo: "GDA", 
+  pdf: "certs/googledata analysis ask question.pdf" 
+},
+{ 
+  name: "Prepare Data for Exploration", 
+  issuer: "Google (Coursera)", 
+  logo: "GDA", 
+  pdf: "certs/google data analysuis prepare data.pdf" 
+}
+
 ];
 
+
 const press = [
-    { name: "Times of India", url: "https://timesofindia.com", logo: "TOI" },
+    { name: "Times of India", url: "https://timesofindia.indiatimes.com/city/navi-mumbai/12-year-old-boy-from-navi-mumbai-clears-ssc-exams-with-62/articleshow/92290410.cms", logo: "TOI" },
     { name: "ABP Majha", url: "https://abpmajha.com", logo: "ABP" },
     { name: "Red FM Canada", url: "https://redfm.ca", logo: "RED" },
     { name: "Prime Asia TV", url: "https://primeasiatv.com", logo: "PAT" }
